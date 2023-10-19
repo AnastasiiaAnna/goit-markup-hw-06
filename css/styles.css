@@ -67,7 +67,7 @@ img {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
-.header-navigation {
+.menu {
   display: flex;
   flex-grow: 1;
   margin: 0 auto;
@@ -75,7 +75,7 @@ img {
   align-items: center;
 }
 
-.name {
+.header-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -311,7 +311,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/dark-bg-1.jpg);
+    url(../images/dark-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 320px;
@@ -327,7 +327,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg-1-2x.jpg);
+      url(../images/dark-bg-mob-2x.jpg);
   }
 }
 
@@ -1019,7 +1019,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg-2.jpg);
+      url(../images/dark-bg-tab.jpg);
     padding: 112px 0;
     max-width: 768px;
   }
@@ -1032,7 +1032,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/dark-bg-2-2x.jpg);
+        url(../images/dark-bg-tab-2x.jpg);
     }
   }
 
@@ -1096,6 +1096,10 @@ img {
   .footer-form-btn {
     margin-top: 0px;
   }
+
+  .footer-subscribe {
+    margin-right: 40px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1158,7 +1162,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg-3.jpg);
+      url(../images/dark-bg.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -1169,7 +1173,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/dark-bg-3-2x.jpg);
+        url(../images/dark-bg-2x.jpg);
     }
   }
 
