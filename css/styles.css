@@ -314,7 +314,7 @@ img {
     url(../images/dark-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 320px;
+
   margin: 0 auto;
   background-size: cover;
 }
@@ -1022,7 +1022,6 @@ img {
       ),
       url(../images/dark-bg-tab.jpg);
     padding: 112px 0;
-    max-width: 768px;
   }
 
   @media (min-device-pixel-ratio: 2),
